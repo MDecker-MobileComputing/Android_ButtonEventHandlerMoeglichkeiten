@@ -4,7 +4,7 @@ App shows different possibilities to implement a button event handler. The only 
 
 <br>
 
-Identifiers (names for classes, variables and methods) and UI texts are in German only.
+Identifiers (names for classes, variables and methods), UI texts and Comments (JavaDoc) are in German only.
 
 <br>
 
@@ -12,8 +12,6 @@ Identifiers (names for classes, variables and methods) and UI texts are in Germa
 ## Screenshots
 
 ![Screenshot 1](screenshot_1.png)  ![Screenshot 2](screenshot_2.png)
-
-
 
 <br>
 

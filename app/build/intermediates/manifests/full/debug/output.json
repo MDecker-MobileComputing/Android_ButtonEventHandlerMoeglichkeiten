@@ -1,0 +1,1 @@
+[{"outputType":{"type":"MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":6,"versionName":"1.5 (September 2018)","enabled":true,"outputFile":"app-debug.apk","fullName":"debug","baseName":"debug"},"path":"AndroidManifest.xml","properties":{"packageId":"de.mide.eventhandler_moeglichkeiten","split":"","minSdkVersion":"14"}}]

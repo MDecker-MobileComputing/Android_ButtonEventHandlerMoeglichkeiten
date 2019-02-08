@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="de.mide.eventhandler_moeglichkeiten" >
+          package="de.mide.eventhandler_moeglichkeiten" 
+          android:installLocation="auto" 
+          android:versionCode="2"
+          android:versionName="1.1 (Februar 2019)">
 
-
-    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="28" />
-    <!--  App läuft nur auf Geräten mit mindestens API-Level 14 (Android 4.0+),
-          weil ein GridLayout verwendet wird.  -->
-                   
 
     <application android:allowBackup="true"        
                  android:icon="@drawable/ic_launcher"

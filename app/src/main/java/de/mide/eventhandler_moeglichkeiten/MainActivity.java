@@ -33,6 +33,7 @@ public class MainActivity extends Activity implements OnClickListener {
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         
@@ -72,6 +73,7 @@ public class MainActivity extends Activity implements OnClickListener {
      */
     @Override
     public void onClick(View view) {
+
         _textView.append("Klick auf Button 1 (Activity-Klasse selbst).\n");
     }
     
@@ -81,6 +83,7 @@ public class MainActivity extends Activity implements OnClickListener {
      * <tt>android:onClick</tt> als Event-Handler-Methode zugeordnet.
      */
     public void meineMethode(View view) {
+
         _textView.append("Klick auf Button 5 (in Layout-Datei definiert).\n");
     }
     
@@ -101,6 +104,7 @@ public class MainActivity extends Activity implements OnClickListener {
          */
         @Override
         public void onClick(View view) {
+
             _textView.append("Klick auf Button 3 (innere Klasse).\n");
         }        
         

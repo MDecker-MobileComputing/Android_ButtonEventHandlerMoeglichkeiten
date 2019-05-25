@@ -3,7 +3,7 @@
           package="de.mide.eventhandler_moeglichkeiten" 
           android:installLocation="auto" 
           android:versionCode="2"
-          android:versionName="1.1 (Februar 2019)">
+          android:versionName="1.2 (Mai 2019)">
 
 
     <application android:allowBackup="true"        

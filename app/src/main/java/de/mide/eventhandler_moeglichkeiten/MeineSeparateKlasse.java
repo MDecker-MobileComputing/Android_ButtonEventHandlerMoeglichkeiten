@@ -40,6 +40,7 @@ public class MeineSeparateKlasse implements OnClickListener {
      */
     @Override
     public void onClick(View view) {
+
         _textView.append("Klick auf Button 4 (separate Klasse).\n");
     }    
     

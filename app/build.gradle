@@ -8,8 +8,6 @@ android {
         applicationId "de.mide.eventhandler_moeglichkeiten"
         minSdkVersion 14
         targetSdkVersion 29
-        versionCode 3
-        versionName "1.2 (September 2019)"
     }
 
     buildTypes {

@@ -10,14 +10,15 @@ import android.widget.TextView;
 
 /**
  * Demo-App die mehrere Möglichkeiten zeigt, einen Event-Handler für einen Button zu definieren.
- * <br/><br/>
+ * <br><br>
  * <b>Achtung:</b>
  * App läuft nur auf Geräten mit mindestens API-Level 14 (Android 4.0+), weil die Klasse
  * {@link android.widget.GridLayout} verwendet wird.
- * <br/><br/>
+ * <br><br>
+ *
  * Die Activity-Klasse selbst implementiert das Interface {@link android.view.View.OnClickListener},
  * was aber nur für Button 1 benötigt wird.
- * <br/><br/>
+ * <br><br>
  * 
  * This project is licensed under the terms of the BSD 3-Clause License.
  */

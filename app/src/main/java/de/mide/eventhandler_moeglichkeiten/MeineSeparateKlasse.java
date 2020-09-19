@@ -30,6 +30,7 @@ public class MeineSeparateKlasse implements OnClickListener {
      * der Datei <tt>R.java</tt> selbst abzufragen.  
      */
     public MeineSeparateKlasse(TextView textView) {
+
         _textView = textView; 
     }
     

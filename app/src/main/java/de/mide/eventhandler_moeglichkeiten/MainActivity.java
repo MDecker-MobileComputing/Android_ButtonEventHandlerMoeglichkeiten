@@ -50,7 +50,8 @@ public class MainActivity extends Activity implements OnClickListener {
         Button button2 = findViewById(R.id.button_2);
         button2.setOnClickListener(new OnClickListener() {            
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
+
                 _textView.append("Klick auf Button 2 (anonyme Klasse).\n");
             }
         });
@@ -92,6 +93,7 @@ public class MainActivity extends Activity implements OnClickListener {
     /* **************************************** */
     /* ********* Start Innere Klasse ********** */
     /* **************************************** */
+
     /**
      * Innere Klasse als Event-Handler für Button 3.
      * Die innere Klasse kann auch auf die Member-Variable der "äußeren Klasse"

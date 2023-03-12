@@ -19,30 +19,30 @@ public class MeineSeparateKlasse implements OnClickListener {
 
     /** Referenz auf TextView-Element muss im Konstruktor übergeben werden. */
     protected TextView _textView = null;
-    
-    
-    /** 
+
+
+    /**
      * Konstruktor zur Übergabe von Referenz auf TextView-Element.
      * <br/>
      * Diese Klasse ist keine Unterklasse von Activity und kann deshalb
      * auch nicht die Methode {@link android.app.Activity#findViewById(int)}
      * verwenden, um diese Referenz anhand der entsprechenden Konstante aus
-     * der Datei <tt>R.java</tt> selbst abzufragen.  
+     * der Datei <tt>R.java</tt> selbst abzufragen.
      */
     public MeineSeparateKlasse(TextView textView) {
 
-        _textView = textView; 
+        _textView = textView;
     }
-    
-    
+
+
     /**
-     * Einzige Methode aus Interface {@link android.view.View.OnClickListener} 
-     * implementieren. 
+     * Einzige Methode aus Interface {@link android.view.View.OnClickListener}
+     * implementieren.
      */
     @Override
     public void onClick(View view) {
 
         _textView.append("Klick auf Button 4 (separate Klasse).\n");
-    }    
-    
+    }
+
 }

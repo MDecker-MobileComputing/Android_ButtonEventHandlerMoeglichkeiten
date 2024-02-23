@@ -63,7 +63,7 @@ public class MainActivity extends Activity implements OnClickListener {
 
         // Button 4: Separate (externe) Klasse als Event-Handler
         Button button4 = findViewById(R.id.button_4);
-        button4.setOnClickListener( new MeineSeparateKlasse(_textView) );
+        button4.setOnClickListener( new SeparateKlasse(_textView) );
 
         // Button 5: siehe Attribut in Layout-Datei android:onClick="meineMethode"
     }

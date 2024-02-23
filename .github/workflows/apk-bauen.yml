@@ -9,10 +9,11 @@ on:
 jobs:
   job-apk-bauen:
     name: Debug-APK bauen
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.betriebssystem }}
     strategy:
       matrix:
         java-version: ['17', '21']
+        betriebssystem: ['ubuntu-latest', 'macos-latest']
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -26,7 +27,7 @@ jobs:
       - name: APK-Datei hochladen
         uses: actions/upload-artifact@v4
         with:
-          name: ButtonEventHandler-Java${{ matrix.java-version }}-APK
+          name: ButtonEventHandler-Java${{ matrix.java-version }}-${{ matrix.betriebssystem }}-APK
           path: app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
           retention-days: 2

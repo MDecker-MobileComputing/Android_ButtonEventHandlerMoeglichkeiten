@@ -1,4 +1,4 @@
-package de.mide.eventhandler_moeglichkeiten;
+package de.mide.android.eventhandler_moeglichkeiten;
 
 import org.junit.Test;
 

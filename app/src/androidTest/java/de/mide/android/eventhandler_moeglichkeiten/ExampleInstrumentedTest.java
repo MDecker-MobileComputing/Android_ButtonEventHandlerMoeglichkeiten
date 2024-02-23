@@ -1,4 +1,4 @@
-package de.mide.eventhandler_moeglichkeiten;
+package de.mide.android.eventhandler_moeglichkeiten;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("de.mide.eventhandler_moeglichkeiten", appContext.getPackageName());
+        assertEquals("de.mide.android.eventhandler_moeglichkeiten", appContext.getPackageName());
     }
 }

@@ -16,12 +16,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup JDK
+      - name: JDK für Java ${{ matrix.java-version }} einrichten
         uses: actions/setup-java@v4
         with:
           java-version: ${{ matrix.java-version }}
           distribution: 'temurin'
-      - name: Gradle aufrufen
+      - name: Gradle mit Java ${{ matrix.java-version }} aufrufen
         run: bash ./gradlew clean assembleDebug --stacktrace
       - name: APK-Datei hochladen
         uses: actions/upload-artifact@v4

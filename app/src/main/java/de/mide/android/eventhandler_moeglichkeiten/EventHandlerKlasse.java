@@ -15,7 +15,7 @@ import android.widget.TextView;
  *
  * This project is licensed under the terms of the BSD 3-Clause License.
  */
-public class SeparateKlasse implements OnClickListener {
+public class EventHandlerKlasse implements OnClickListener {
 
     /** Referenz auf TextView-Element muss im Konstruktor übergeben werden. */
     protected TextView _textView = null;
@@ -29,7 +29,7 @@ public class SeparateKlasse implements OnClickListener {
      * verwenden, um diese Referenz anhand der entsprechenden Konstante aus
      * der Datei <tt>R.java</tt> selbst abzufragen.
      */
-    public SeparateKlasse(TextView textView) {
+    public EventHandlerKlasse(TextView textView) {
 
         _textView = textView;
     }
